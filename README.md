@@ -1,0 +1,1 @@
+Landing page with adaptive design and carousels using bootstrap.
