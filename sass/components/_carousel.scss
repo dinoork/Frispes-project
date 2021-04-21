@@ -8,7 +8,7 @@
     display: flex;
     flex: 1;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 0;
     color: #fff;
     text-align: center;
@@ -28,23 +28,23 @@
 .carousel-arrow-left {
     width: 53px;
     height: 100%;
-    background-image: url(img/arrows/arrow-left.svg);
+    background-image: url(../img/arrows/arrow-left.svg);
 
 
     &:hover,
     &:active {
-        background-image: url(img/arrows/arrow-left-orange.svg);
+        background-image: url(../img/arrows/arrow-left-orange.svg);
     }
 }
 
 .carousel-arrow-right {
     height: 100%;
     min-width: 92px;
-    background-image: url(img/arrows/arrow-right.svg);
+    background-image: url(../img/arrows/arrow-right.svg);
 
 
     &:hover,
     &:active {
-        background-image: url(img/arrows/arrow-right-orange.svg);
+        background-image: url(../img/arrows/arrow-right-orange.svg);
     }
 }
