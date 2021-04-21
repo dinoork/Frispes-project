@@ -57,7 +57,7 @@
     }
 
     &__arrows {
-        flex: 1;
+        flex: 0 0 17%;
 
         @include respond(tab-land) {
             margin-left: 5rem;

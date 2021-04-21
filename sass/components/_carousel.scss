@@ -8,7 +8,6 @@
     display: flex;
     flex: 1;
     align-items: center;
-    justify-content: flex-start;
     padding: 0;
     color: #fff;
     text-align: center;
@@ -22,6 +21,10 @@
     &:hover {
         opacity: 1;
     }
+}
+
+.carousel-control-prev {
+    justify-content: flex-start;
 }
 
 
