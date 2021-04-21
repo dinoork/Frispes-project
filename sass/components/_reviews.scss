@@ -24,7 +24,10 @@
     &__heading {
         flex: 1;
         max-width: 40rem;
-        margin-bottom: 3rem;
+
+        @include respond(tab-port) {
+            margin-bottom: 3rem;
+        }
     }
 
     &__arrow {
