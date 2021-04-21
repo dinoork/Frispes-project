@@ -1,0 +1,61 @@
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    /*font-size: 16px;*/
+    line-height: 1.7;
+    color: $color-black;
+}
+
+
+.heading-primary {
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    font-size: 5.2rem;
+    color: $color-primary;
+    line-height: 6.7rem;
+
+    span {
+        color: $color-secondary-dark;
+    }
+
+    @include respond(phone) {
+        font-size: 4.8rem;
+    }
+}
+
+
+.heading-secondary {
+    flex: 0 0 34%;
+    line-height: 5.12rem;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    font-size: 4rem;
+    color: $color-primary;
+}
+
+
+.heading-tertiary {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 3.2rem;
+}
+
+
+.heading-fourth {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 2.6rem;
+    line-height: 3.33rem;
+}
+
+
+.heading-sixth {
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+}
+
+.paragraph {
+    font-size: $default-font-size;
+}

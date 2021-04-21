@@ -1,0 +1,24 @@
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: $color-secondary;
+
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .9;
+    transition: opacity .15s ease;
+    width: 100%;
+
+    &:hover {
+        opacity: 1;
+    }
+}

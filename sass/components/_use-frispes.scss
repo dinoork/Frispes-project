@@ -1,0 +1,55 @@
+.use-frispes {
+    text-align: center;
+
+    &__heading {
+        margin-bottom: 2.4rem;
+    }
+
+    &__paragraph {
+        font-size: $default-font-size;
+        color: $color-grey-1;
+    }
+
+    &__list {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        @include respond(tab-land) {
+            padding: 0 2rem;   
+        }
+
+        @include respond(tab-port) {
+            padding: 0 10rem;
+        }
+
+        @include respond(phone) {
+            flex-direction: column;
+        }
+    }
+
+    &__item {
+
+        @include respond(tab-land) {
+            flex: 0 0 33.33333%;
+            margin-bottom: 4rem;    
+        }
+
+        @include respond(tab-port) {
+            flex: 0 0 35%;
+        }
+
+        @include respond(phone) {
+            margin-bottom: 5rem;
+        }
+
+    }
+
+
+    &__link:link,
+    &__link:visited {
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,39 @@
+.carousel-indicators {
+
+    [data-bs-target] {
+        height: 4px;
+        width: 16px;
+    }
+}
+.carousel-indicators .active {
+    width: 40px;
+    background-color: $color-secondary; 
+}
+
+
+.indicators {
+    background-color: $color-grey-2;
+    width: 16rem;
+    height: 4px;
+    margin: 0 auto;
+    display: flex;
+
+    [data-bs-target] {
+        flex: 1;
+        margin: 0;
+        border: 0;
+    }
+    
+    &__el {
+        flex: 1;
+
+        &--active {
+            background-color: $color-secondary;
+        }
+    }
+
+}
+
+.indicators .active {
+    background-color: $color-secondary;
+}

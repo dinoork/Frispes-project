@@ -1,0 +1,82 @@
+.faq {
+    text-align: center;
+    
+    &__heading {
+        max-width: 58rem;
+        margin: 0 auto;
+    }
+
+    &__questions {
+        margin-bottom: 6.4rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @include respond(tab-port) {
+            padding: 0 20rem;    
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        @include respond(phone) {
+           padding: 0 4rem; 
+        }
+    }
+
+    &__item {
+        background-color: $color-white;
+        flex: 1;
+        position: relative;
+        
+        @include mix-margin-right; 
+
+        transition: background-color .3s;
+        box-shadow: 0 1rem 2.4rem rgba(223, 223, 223, 0.5);
+
+
+        &:hover {
+            color: $color-white;
+            background-color: $color-secondary;
+        }
+
+
+        @include respond(tab-port) {    
+            margin-bottom: 5rem;
+            width: 100%;            
+            
+            &:not(:last-child) {
+                margin-right: 0;
+            }
+        }
+    }
+
+    &__item:hover &__icon {
+        fill: $color-secondary;
+        background-color: $color-white;
+        box-shadow: 0 1rem 2.4rem rgba(223, 223, 223, 0.5);
+        opacity: 0;
+    }
+
+    &__subtitle {
+        padding: 4.2rem 4rem;
+    }
+
+    &__icon {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        padding: 2rem 2.4rem;
+        background-color: $color-secondary;
+    }
+
+    &__hidden {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    &__item:hover &__hidden {
+        opacity: 1;
+        visibility: visible;
+    }
+}

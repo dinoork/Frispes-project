@@ -1,0 +1,49 @@
+.features {
+    flex: 1;
+
+    @include respond(tab-small) {    
+        padding: 0 1rem;
+    }
+
+    &__list {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 3.5rem 0;
+
+        @include respond(tab-port) {
+            padding-top: 6rem;
+            padding-bottom: 0;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+
+    &__item {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 0 0 50%;
+        align-items: baseline;
+        margin-bottom: 6.4rem;
+
+        @include respond(tab-port) {
+            justify-content: center;
+            flex: 0 0 50%;
+        }
+
+        @include respond(tab-small) {
+            justify-content: flex-start;
+        }
+
+    }
+
+    &__icon {
+        margin-right: 2.4rem;
+    }
+
+    &__paragraph {
+        font-weight: 400;
+        font-size: 1.6rem;
+        color: $color-grey-1;
+    }
+}

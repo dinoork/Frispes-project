@@ -1,0 +1,156 @@
+.footer {
+    overflow-x: hidden;
+    font-size: 1.6rem;
+    background-color: $color-primary-dark;
+    color: $color-white;
+    padding-top: 5.6rem;
+    padding-bottom: 10.2rem;
+
+
+    @include respond(tab-land) {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    @include respond(tab-port) {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+
+        @include respond(tab-small) {
+            flex-direction: column;
+        }
+    }
+
+    &__first {
+        padding-bottom: 1.5rem;
+        margin-right: 12.5rem;
+        max-width: 25.5rem;
+
+        @include respond(tab-small) {
+            margin-bottom: 3rem;
+            max-width: 40rem;
+        }
+    }
+
+    &__heading {
+        color: $color-white;
+        margin-bottom: 1.6rem;
+    }
+
+    &__social-media {
+        max-width: 10.4rem;
+        justify-content: space-between;
+        align-items: baseline;
+        display: flex;
+        list-style: none;
+        padding: 0;
+    }
+
+    &__icon-item {
+        transition: all .2s;
+        cursor: pointer;
+    }
+
+    &__icon-item--1 {
+
+        background-image: url(../../img/footer/instagram.svg);
+        height: 20px;
+        width: 20px;
+        
+        &:hover {
+            background-image: url(../../img/footer/instagram-orange.svg);
+        }
+    }
+
+
+    &__icon-item--2 {
+
+        width: 24px;
+        height: 18px;
+        background-image: url(../../img/footer/youtube.svg);
+        
+        &:hover {
+            background-image: url(../../img/footer/youtube-orange.svg);
+        }        
+    }
+
+
+    &__icon-item--3 {
+
+        height: 22px;
+        width: 12px;
+        background-image: url(../../img/footer/facebook.svg); 
+
+        &:hover {
+            background-image: url(../../img/footer/facebook-orange.svg);
+        }   
+    }
+
+
+    &__second {
+        flex: 1;
+        display: flex;
+        justify-content: flex-start;
+
+        @include respond(tab-port) {
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    }
+
+    &__list {
+        flex: 1;
+        list-style: none;
+        
+        &:last-child {
+            flex: 0 0 28%;
+        }
+
+
+        @include respond(tab-port) {
+            flex: 0 0 42%;
+            margin-bottom: 4rem;
+
+            &:last-child {
+                flex: 0 0 42%;
+            }
+        }
+    }
+
+    &__item {
+
+        &:not(:last-child) {
+            margin-bottom: .9rem;
+        }
+    }
+
+    &__name {
+        margin-bottom: 2.4rem;
+        font-size: $default-font-size;
+        opacity: 0.5;
+    }
+
+    &__link:link,
+    &__link:visited {
+        text-decoration: none;
+        color: $color-white;
+        transition: all .2s;
+    }
+
+    &__link:hover,
+    &__link:active {
+        color: $color-secondary;
+
+    }
+
+    &__span {
+        margin-left: 1.5rem;
+    }
+}

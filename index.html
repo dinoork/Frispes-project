@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+
+        <!-- <link rel="stylesheet" href="css/icon-font.css"> -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">        
+        <link rel="stylesheet" href="css/style.css">
+        <!-- <link rel="shortcut icon" type="image/png" href="img/favicon.png"> -->
+        
+        <title>Frispes</title>
+    </head>
+    <body>
+
+
+        <div class="mobile-nav">
+            <input type="checkbox" class="mobile-nav__checkbox" id="navi-toggle">
+
+            <label for="navi-toggle" class="mobile-nav__button">
+                <span class="mobile-nav__icon">&nbsp;</span>
+            </label>
+
+            <div class="mobile-nav__background">&nbsp;</div>
+
+            <nav class="mobile-nav__nav">
+                <ul class="mobile-nav__list">
+                    <li class="mobile-nav__item"><a href="#" class="mobile-nav__link"><span>01</span>Home</a></li>
+                    <li class="mobile-nav__item"><a href="#" class="mobile-nav__link"><span>02</span>Workspace</a></li>
+                    <li class="mobile-nav__item"><a href="#" class="mobile-nav__link"><span>03</span>Service</a></li>
+                    <li class="mobile-nav__item"><a href="#" class="mobile-nav__link"><span>04</span>Events</a></li>
+                    <li class="mobile-nav__item"><a href="#" class="mobile-nav__link"><span>05</span>Reviews</a></li>
+                    <li class="mobile-nav__item"><a href="#" class="mobile-nav__link"><span>06</span>Contact Us</a></li>
+                    <li class="mobile-nav__item"><a href="#" class="mobile-nav__link"><span>07</span>Log in</a></li>
+                    <li class="mobile-nav__item"><a href="#" class="mobile-nav__link"><span>08</span>Sign up</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <header class="header">
+            <div class="wrapper">
+                <nav class="navigation u-margin-bottom-medium">
+                    <div class="navigation__logo">
+                        <p class="navigation__logo-text">Frispes.</p>
+                    </div>
+                    <ul class="navigation__list">
+                        <li class="navigation__item"><a href="#" class="navigation__link">Home</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link">Workspace</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link">Service</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link">Events</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link">Reviews</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link">Contact Us</a></li>
+                    </ul>
+                    <div class="navigation__buttons">
+                        <a class="btn navigation-btn">Log in</a>
+                        <a class="btn navigation-btn">Sign up</a>
+                    </div>
+                </nav>
+                <div class="section-name">
+                    <p class="section-name__paragraph">Introducing</p>
+                    <span class="section-name__span">&nbsp;</span>
+                </div>
+                <div class="header__main-part">
+                    <h1 class="heading-primary header__heading"><span>Revolutionary</span> co-working space to realize your innovation</h1>
+                    <p class="header__paragraph">In frispes, we spearhead new initiatives and provide mentorship to a new startup, and help grow their opportunities in key local, regional and global markets</p>
+                </div>
+                  
+                <div id="carouselExampleIndicators" class="carousel slide u-margin-bottom-huge" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active indicator indicator--active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="indicator" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="indicator" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="indicator" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/header-img.jpg" class="d-block w-100" alt="Slider Photo 1">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/header-img.jpg" class="d-block w-100" alt="Slider Photo 2">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/header-img.jpg" class="d-block w-100" alt="Slider Photo 3">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/header-img.jpg" class="d-block w-100" alt="Slider Photo 4">
+                      </div>
+                    </div>
+                </div>
+            
+            </div>
+        </header>
+        <section class="section-our-space u-margin-bottom-huge">
+            <div class="wrapper">
+                <div class="our-space">
+                    <div class="our-space__head">
+                        <h2 class="heading-secondary">Our Spaces</h2>
+                        <p class="our-space__paragraph">Our space is designed to give you a different experience when working with your team or personally</p>
+
+                        <div class="btn__arrows our-space__arrows">
+                                
+                            <div class="carousel-control-prev" type="button" data-bs-target="#carouselSecond" data-bs-slide="prev">
+                                <img src="img/Group-2.svg" aria-hidden="true">
+                                <span class="visually-hidden">Previous</span>
+                            </div>
+                            <div class="carousel-control-next" type="button" data-bs-target="#carouselSecond" data-bs-slide="next">
+                              <img src="img/Group-1.svg" aria-hidden="true">
+                              <span class="visually-hidden">Next</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--This applies only at max-width: 900px-->
+                    <div class="composition__carousel">
+                            
+                        <div id="carouselSecond" class="carousel slide" data-bs-ride="carousel">
+                            
+                                <div class="indicators carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselSecond" data-bs-slide-to="0" class="indicators__el active indicator indicator--active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselSecond" data-bs-slide-to="1" class="indicators__el indicator" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselSecond" data-bs-slide-to="2" class="indicators__el indicator" aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#carouselSecond" data-bs-slide-to="3" class="indicators__el indicator" aria-label="Slide 4"></button>
+                                </div>
+
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="composition__item">
+                                        <div class="composition__pictures">
+                                            <img src="img/Chevron-right.svg" alt="Chevron-right" class="composition__icon">
+                                            <img src="./img/our-space-1.jpg" alt="Photo of team" class="composition__img">
+                                        </div>
+                                        <p class="composition__caption">Working with team</p>
+                                    </div>                            
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="composition__item composition__item-middle">
+                                        <img src="img/our-space lines.png" alt="Lines" class="composition__lines">
+                                        <h3 class="heading-tertiary composition__heading">Private Space</h3>
+                                        <p class="composition__description">Comfortable space, Full speed wifi, Free coffe & Snack and many more</p>
+                                        <div class="composition__cta">
+                                            <a href="#" class="composition__link">Check avaibility</a>
+                                            <img src="img/Chevron-right.svg" alt="Chevron-right" class="composition__icon">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="composition__item">
+                                        <div class="composition__pictures">
+                                            <img src="img/Chevron-right.svg" alt="Chevron-right" class="composition__icon">
+                                            <img src="./img/our-space-2.jpg" alt="Photo of working man" class="composition__img">
+                                        </div>                            
+                                        <p class="composition__caption">Custom Office</p>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="composition__item">
+                                        <div class="composition__pictures">
+                                            <img src="img/Chevron-right.svg" alt="Chevron-right" class="composition__icon">
+                                            <img src="./img/our-space-2.jpg" alt="Photo of working man" class="composition__img">
+                                        </div>                            
+                                        <p class="composition__caption">Custom Office</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="our-space__slider">
+                            <p class="our-space__count">01 / <span class="our-space__span">04</span></p>
+                        </div>
+
+                    </div>
+
+                    <!-- Applies only at screen size > 900px -->
+                    <div class="composition">
+                        <div class="composition__item">
+                            <div class="composition__pictures">
+                                <img src="img/Chevron-right.svg" alt="Chevron-right" class="composition__icon">
+                                <img src="./img/our-space-1.jpg" alt="Photo of team" class="composition__img">
+                            </div>
+                            <p class="composition__caption">Working with team</p>
+                        </div>
+
+                        <div class="composition__item composition__item-middle">
+                            <img src="img/our-space lines.png" alt="Lines" class="composition__lines">
+                            <h3 class="heading-tertiary composition__heading">Private Space</h3>
+                            <p class="composition__description">Comfortable space, Full speed wifi, Free coffe & Snack and many more</p>
+                            <div class="composition__cta">
+                                <a href="#" class="composition__link">Check avaibility</a>
+                                <img src="img/Chevron-right.svg" alt="Chevron-right" class="composition__icon">
+                            </div>
+                        </div>
+                        <div class="composition__item">
+                            <div class="composition__pictures">
+                                <img src="img/Chevron-right.svg" alt="Chevron-right" class="composition__icon">
+                                <img src="./img/our-space-2.jpg" alt="Photo of working man" class="composition__img">
+                            </div>                            
+                            <p class="composition__caption">Custom Office</p>
+                        </div>
+                    </div>
+
+                    <div class="our-space__slider our-space__slider--1">
+                        
+                        <p class="our-space__count">01 / <span class="our-space__span">04</span></p>
+                        <div class="indicators">
+                            <div class="indicators__el indicators__el--active">&nbsp;</div>
+                            <div class="indicators__el">&nbsp;</div>
+                            <div class="indicators__el">&nbsp;</div>
+                            <div class="indicators__el">&nbsp;</div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-whyfrispes u-margin-bottom-huge">
+            <div class="wrapper">
+                <div class="whyfrispes">
+                    <div class="features">
+                        <ul class="features__list">
+                            <li class="features__item">
+                                <img src="img/features/people.svg" alt="Icon of people" class="features__icon">
+                                <div class="features__text-block">
+                                    <h3 class="heading-tertiary">500+</h3>
+                                    <p class="features__paragraph">Meeting rooms</p>
+                                </div>
+                            </li>
+                            <li class="features__item">
+                                <img src="img/features/tent.svg" alt="Icon of a tent" class="features__icon">
+                                <div class="features__text-block">
+                                    <h3 class="heading-tertiary">100+</h3>
+                                    <p class="features__paragraph">Event spaces</p>
+                                </div>
+                            </li>
+                            <li class="features__item">
+                                <img src="img/features/flag.svg" alt="Icon of a flag" class="features__icon">
+                                <div class="features__text-block">
+                                    <h3 class="heading-tertiary">60+</h3>
+                                    <p class="features__paragraph">Countries</p>
+                                </div>
+                            </li>
+                            <li class="features__item">
+                                <img src="img/features/wifi 1.svg" alt="Icon of a wifi" class="features__icon">
+                                <div class="features__text-block">
+                                    <h3 class="heading-tertiary">500 Mbps</h3>
+                                    <p class="features__paragraph">Internet speed</p>
+                                </div>
+                            </li>
+                            <li class="features__item">
+                                <img src="img/features/User.svg" alt="Icon of a user" class="features__icon">
+                                <div class="features__text-block">
+                                    <h3 class="heading-tertiary">5K+</h3>
+                                    <p class="features__paragraph">Startup mentors</p>
+                                </div>
+                            </li>
+                            <li class="features__item">
+                                <img src="img/features/Users.svg" alt="Icon of a users" class="features__icon">
+                                <div class="features__text-block">
+                                    <h3 class="heading-tertiary">200+</h3>
+                                    <p class="features__paragraph">Communities inside</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="whyfrispes__main">
+                        <div class="section-name section-name__white">
+                            <p class="section-name__paragraph">Why Frispes</p>
+                            <span class="section-name__span">&nbsp;</span>
+                        </div>
+                        <h2 class="heading-secondary whyfrispes__heading">We revolutionize your workspace</h2>
+                        <p class="whyfrispes__description">With a decade of insights and expertise, we're decided to reimagine co-working space, designed to help a new startup grow up and realize their ideas so they can give a positive impacts on many people</p> 
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <section class="section-our-facilities u-margin-bottom-huge">
+            <div class="wrapper">
+                <div class="facilities">
+                    <div class="section-name">
+                        <p class="section-name__paragraph">Our Facilities</p>
+                        <span class="section-name__span">&nbsp;</span>
+                    </div>
+                    <h2 class="heading-secondary facilities__heading">All facilities are designed to meet all your needs</h2>
+                    <div class="facilities__main-block">
+                        <ul class="facilities__list">
+                            <li class="facilities__item">Spacious parking area</li>
+                            <li class="facilities__item">Comfortable spaces</li>
+                            <li class="facilities__item">Cozy cafe</li>
+                            <li class="facilities__item">Child playground</li>
+                            <li class="facilities__item">Outdoor spaces</li>
+                        </ul>
+                        <div class="facilities__img-row">
+                            <img src="img/facilities-img.jpg" alt="Photo of a cafe" class="facilities__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-gallery u-margin-bottom-huge">
+                <div class="gallery">
+                    <div class="wrapper">
+                        <div class="gallery__top">
+                            <div class="section-name">
+                                <p class="section-name__paragraph">Frispes gallery</p>
+                                <span class="section-name__span">&nbsp;</span>
+                            </div>
+                            <h2 class="heading-secondary gallery__heading">Immersive beautiful co-working space gallery</h2>
+                            <div class="btn__arrows gallery__arrows">
+                                
+                                <div class="carousel-control-prev" type="button" data-bs-target="#carouselThird" data-bs-slide="prev">
+                                    <img src="img/Group-2.svg" aria-hidden="true">
+                                    <span class="visually-hidden">Previous</span>
+                                </div>
+                                <div class="carousel-control-next" type="button" data-bs-target="#carouselThird" data-bs-slide="next">
+                                  <img src="img/Group-1.svg" aria-hidden="true">
+                                  <span class="visually-hidden">Next</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="gallery__main">
+
+
+                        <!--This applies only at max-width: 1100px-->
+                        <div class="gallery__img-row gallery__carousel">
+                            
+                            <div id="carouselThird" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#carouselThird" data-bs-slide-to="0" class="active indicator indicator--active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carouselThird" data-bs-slide-to="1" class="indicator" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#carouselThird" data-bs-slide-to="2" class="indicator" aria-label="Slide 3"></button>
+                                  <button type="button" data-bs-target="#carouselThird" data-bs-slide-to="3" class="indicator" aria-label="Slide 4"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                            <img src="img/gallery/image 1.jpg" alt="Gallery photo 1" class="d-block w-100 gallery__img">
+                                    </div>
+                                    <div class="carousel-item">
+                                            <img src="img/gallery/image 2.jpg" alt="Gallery photo 2" class="d-block w-100 gallery__img gallery__img--2">                                            
+                                    </div>
+                                    <div class="carousel-item">
+                                            <img src="img/gallery/image 3.jpg" alt="Gallery photo 3" class="d-block w-100 gallery__img">                                            
+                                    </div>
+                                    <div class="carousel-item">
+                                            <img src="img/gallery/image 4.jpg" alt="Gallery photo 4" class="d-block w-100 gallery__img">                                            
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                        </div>
+
+                        <div class="gallery__img-row">
+                            <img src="img/gallery/image 1.jpg" alt="Gallery photo 1" class="gallery__img">
+                        </div>
+                        <div class="gallery__img-row">
+                            <img src="img/gallery/image 2.jpg" alt="Gallery photo 2" class="gallery__img gallery__img--2">
+                        </div>
+                        <div class="gallery__img-row">
+                            <img src="img/gallery/image 3.jpg" alt="Gallery photo 3" class="gallery__img">
+                        </div>
+                        <div class="gallery__img-row">
+                            <img src="img/gallery/image 4.jpg" alt="Gallery photo 4" class="gallery__img">
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="section-use-frispes u-margin-bottom-huge">
+            <div class="wrapper-large">
+                <div class="use-frispes">
+                    <h2 class="heading-secondary use-frispes__heading">Who uses Frispes?</h2>
+                    <p class="use-frispes__paragraph u-margin-bottom-medium">Big brands, small bussiness, new startuo and inividuals</p>
+                    <div class="use-frispes__companies">
+                        <ul class="use-frispes__list">
+                            <li class="use-frispes__item">
+                                <a href="https://google.com" class="use-frispes__link">
+                                    <img src="img/companies/google.svg" alt="Google Logo" class="use-frispes__img">
+                                </a>
+                            </li>
+                            <li class="use-frispes__item">
+                                <a href="https://www.tokopedia.com/" class="use-frispes__link">
+                                    <img src="img/companies/tokopedia.svg" alt="Tokopedia Logo" class="use-frispes__img">
+                                </a>
+                            </li>
+                            <li class="use-frispes__item">
+                                <a href="https://www.upwork.com/" class="use-frispes__link">
+                                    <img src="img/companies/upwork.svg" alt="Upwork Logo" class="use-frispes__img">
+                                </a>
+                            </li>
+                            <li class="use-frispes__item">
+                                <a href="https://www.microsoft.com/" class="use-frispes__link">
+                                    <img src="img/companies/microsoft.svg" alt="Microsoft Logo" class="use-frispes__img">
+                                </a>
+                            </li>
+                            <li class="use-frispes__item">
+                                <a href="https://www.shopify.com/" class="use-frispes__link">
+                                    <img src="img/companies/shopify.svg" alt="Shopify Logo" class="use-frispes__img">
+                                </a>
+                            </li>
+                            <li class="use-frispes__item">
+                                <a href="https://stripe.com/" class="use-frispes__link">
+                                    <img src="img/companies/stripe.svg" alt="Stripe Logo" class="use-frispes__img">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-reviews">
+            <div class="wrapper">
+                <div class="reviews u-margin-bottom-huge">
+                    <div class="section-name reviews__section-name">
+                        <p class="section-name__paragraph">Reviews</p>
+                        <span class="section-name__span">&nbsp;</span>
+                    </div>
+                    <div class="reviews__top u-margin-bottom-medium">
+                        <h2 class="heading-secondary reviews__heading">What our customers are saying</h2>
+
+                        <div class="btn__arrows reviews__arrow">     
+                            <div class="carousel-control-prev" type="button" data-bs-target="#carouselFourth" data-bs-slide="prev">
+                                <img src="img/Group-2.svg" aria-hidden="true">
+                                <span class="visually-hidden">Previous</span>
+                            </div>
+                            <div class="carousel-control-next" type="button" data-bs-target="#carouselFourth" data-bs-slide="next">
+                              <img src="img/Group-1.svg" aria-hidden="true">
+                              <span class="visually-hidden">Next</span>
+                            </div>
+                        </div>
+                    </div>
+                
+
+                    <!--This applies only at max-width: 900px-->
+                    <div class="reviews__carousel">
+                            
+                        <div id="carouselFourth" class="carousel slide" data-bs-ride="carousel">
+                            
+                                <div class="indicators carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselFourth" data-bs-slide-to="0" class="indicators__el active indicator indicator--active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselFourth" data-bs-slide-to="1" class="indicators__el indicator" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselFourth" data-bs-slide-to="2" class="indicators__el indicator" aria-label="Slide 3"></button>
+                                </div>
+
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <figure class="reviews__item">
+                                        <blockquote class="reviews__text">
+                                            Our team has been working at frispes for almost 2 months because our office still closed. During working at frispes, we feel a new experience, we can feel working with a beautiful, modern, and comfortable space. And cozy cafe with high-speed internet  in there. Thank you for frispes and team.                            
+                                        </blockquote>
+                                        <figcaption class="reviews__user">
+                                            <img src="img/reviewer1.png" alt="Reviewer 1" class="reviews__photo">
+                                            <div class="reviews__user-box">
+                                                <p class="reviews__user-name">Pedro Ibanez</p>
+                                                <p class="reviews__user-job">UI Designer at Google</p>
+                                            </div>
+                                        </figcaption>
+                                    </figure>               
+                                </div>
+                                <div class="carousel-item">
+                                    <figure class="reviews__item">
+                                        <blockquote class="reviews__text">
+                                            The high-speed internet at frispes was so amazing. I can get best experience when running video call with my clients. Frispes has spacious and safe parking area, that’s what i need because i used to work as freelancer for a long time.                            
+                                        </blockquote>
+                                        <figcaption class="reviews__user">
+                                            <img src="img/reviewer2.png" alt="Reviewer 2" class="reviews__photo">
+                                            <div class="reviews__user-box">
+                                                <p class="reviews__user-name">Raymond Thual</p>
+                                                <p class="reviews__user-job">Professional Freelancer</p>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="carousel-item">
+                                    <figure class="reviews__item">
+                                        <blockquote class="reviews__text">
+                                            Just three words : Frispes is Awesome!
+                                        </blockquote>
+                                        <figcaption class="reviews__user">
+                                            <img src="img/reviewer3.png" alt="Reviewer 3" class="reviews__photo">
+                                            <div class="reviews__user-box">
+                                                <p class="reviews__user-name">Yuli Berlian</p>
+                                                <p class="reviews__user-job">IOS Dev at Tokopedia</p>
+                                            </div>
+                                        </figcaption>
+                                    </figure>    
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Screen size > 900px -->
+                    <div class="reviews__main">
+                        
+                        <figure class="reviews__item">
+                            <blockquote class="reviews__text">
+                                Our team has been working at frispes for almost 2 months because our office still closed. During working at frispes, we feel a new experience, we can feel working with a beautiful, modern, and comfortable space. And cozy cafe with high-speed internet  in there. Thank you for frispes and team.                            
+                            </blockquote>
+                            <figcaption class="reviews__user">
+                                <img src="img/reviewer1.png" alt="Reviewer 1" class="reviews__photo">
+                                <div class="reviews__user-box">
+                                    <p class="reviews__user-name">Pedro Ibanez</p>
+                                    <p class="reviews__user-job">UI Designer at Google</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="reviews__item">
+                            <blockquote class="reviews__text">
+                                The high-speed internet at frispes was so amazing. I can get best experience when running video call with my clients. Frispes has spacious and safe parking area, that’s what i need because i used to work as freelancer for a long time.                            
+                            </blockquote>
+                            <figcaption class="reviews__user">
+                                <img src="img/reviewer2.png" alt="Reviewer 2" class="reviews__photo">
+                                <div class="reviews__user-box">
+                                    <p class="reviews__user-name">Raymond Thual</p>
+                                    <p class="reviews__user-job">Professional Freelancer</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="reviews__item">
+                            <blockquote class="reviews__text">
+                                Just three words : Frispes is Awesome!
+                            </blockquote>
+                            <figcaption class="reviews__user">
+                                <img src="img/reviewer3.png" alt="Reviewer 3" class="reviews__photo">
+                                <div class="reviews__user-box">
+                                    <p class="reviews__user-name">Yuli Berlian</p>
+                                    <p class="reviews__user-job">IOS Dev at Tokopedia</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="reviews__indicators indicators">
+                        <div class="indicators__el indicators__el--active">&nbsp;</div>
+                        <div class="indicators__el">&nbsp;</div>
+                        <div class="indicators__el">&nbsp;</div>
+                        <div class="indicators__el">&nbsp;</div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <section class="section-faq">
+            <div class="wrapper">
+                <div class="faq">
+                    <h2 class="heading-secondary u-margin-bottom-medium faq__heading">Find the answers to anything you need in our Help Center</h2>
+                    <div class="faq__questions">
+                        <div class="faq__item">
+                            <h4 class="heading-fourth faq__subtitle">How do I know if a space is available?</h4>
+                            <button class="btn btn-more">
+                                <img src="img/Chevron-down.svg" alt="Chevron down icon" class="faq__icon">
+                                <img src="img/Chevron-down-orange.svg" alt="Chevron down icon" class="faq__icon faq__hidden">
+                            </button>
+                        </div>
+                        <div class="faq__item">
+                            <h4 class="heading-fourth faq__subtitle">How do i book a space?</h4>
+                            <button class="btn btn-more">
+                                <img src="img/Chevron-down.svg" alt="Chevron down icon" class="faq__icon">
+                                <img src="img/Chevron-down-orange.svg" alt="Chevron down icon" class="faq__icon faq__hidden">
+                            </button>
+                        </div>
+                        <div class="faq__item">
+                            <h4 class="heading-fourth faq__subtitle">How do reviews work?</h4>
+                            <button class="btn btn-more">
+                                <img src="img/Chevron-down.svg" alt="Chevron down icon" class="faq__icon">
+                                <img src="img/Chevron-down-orange.svg" alt="Chevron down icon" class="faq__icon faq__hidden">
+                            </button>
+                        </div>
+                    </div>
+                    <button class="btn btn-more u-margin-bottom-small">
+                        <span class="btn-more__span">More questions</span>
+                        <img src="img/Chevron-right-orange.svg" alt="Chevron-right" class="btn-more__icon">
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="section-news">
+            <div class="wrapper">
+                <div class="news">
+                    <div class="news__top u-margin-bottom-medium">
+                        <h2 class="heading-secondary news__heading">News, events and insights for you</h2>
+                        <button class="btn btn-more news__button">
+                            <span class="btn-more__span">See more</span>
+                            <img src="img/Chevron-right-orange.svg" alt="Chevron-right" class="btn-more__icon">
+                        </button>
+                    </div>
+                    <div class="content">
+                        <div class="content__first">
+                            <div class="content__primary">
+                                <img src="img/news/news 1.jpg" alt="News 1 photo" class="content__img-big">
+                                <div class="content__primary-main">
+                                    <h3 class="heading-tertiary content__heading">Google I / O 2020 news update</h3>
+                                    <figure class="content__item">
+                                        <blockquote class="content__text">
+                                            Out of concern for the health and safety of our developers, employees, and local communities — and in line with recent ...                                
+                                        </blockquote>
+                                        <figcaption class="content__user">
+                                            <img src="img/news/reviewer4.png" alt="Reviewer 4" class="content__photo">
+                                            <div class="content__user-box">
+                                                <p class="content__user-name">Sundar pichai</p>
+                                                <p class="content__user-job">CEO at Google</p>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+    
+                            <div class="content__other content__other--1">
+                                <img src="img/news/news 2.jpg" alt="News 2 photo" class="content__img-small">
+                                <h6 class="heading-sixth content__subtitle">Minimal workspace for inspirations</h6>
+                                <p class="content__paragraph">Anthony Masional</p>
+                            </div>
+                        
+                        
+                            <div class="content__other">
+                                <img src="img/news/news 3.jpg" alt="News 3 photo" class="content__img-small">
+                                <h6 class="heading-sixth content__subtitle">Does productivity increase when working remotely ? </h6>
+                                <p class="content__paragraph">Franck Martin</p>
+                            </div>
+    
+                            <div class="content__other">
+                                <img src="img/news/news 4.jpg" alt="News 4 photo" class="content__img-small">
+                                <h6 class="heading-sixth content__subtitle">Morning routine to boost your mood</h6>
+                                <p class="content__paragraph">Elizabeth swan</p>
+                            </div>
+    
+                            <div class="content__other">
+                                <img src="img/news/news 5.jpg" alt="News 5 photo" class="content__img-small">
+                                <h6 class="heading-sixth content__subtitle">5+ tips to find comfortable co-working space</h6>
+                                <p class="content__paragraph">Mykola Ilschenko</p>
+                            </div>                     
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="wrapper">
+                <div class="footer__nav">
+                    <div class="footer__first">
+                        <h1 class="heading-primary footer__heading">Frispes</h1>
+                        <p class="footer__paragraph u-margin-bottom-smallest">We offer comfortable spaces, cozy cafe, high-speed internet, spacious parking area and many more for your best workspaces and meetings</p>
+                        <ul class="footer__social-media">
+                            <li class="footer__icon-item footer__icon-item--1">
+                                <a href="#" class="footer__icon-link"></a>
+                            </li>
+                            <li class="footer__icon-item footer__icon-item--2">
+                                <a href="#" class="footer__icon-link"></a>
+                            </li>
+                            <li class="footer__icon-item footer__icon-item--3">
+                                <a href="#" class="footer__icon-link"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__second">
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <p class="footer__name">Spaces</p>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Co-working spaces</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Meeting rooms</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Event spaces</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Child playground</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Cafe & resto</a>
+                            </li>
+                        </ul>
+    
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <p class="footer__name">Company</p>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">About Us</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Pricing</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Careers</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Press</a>
+                            </li>
+                        </ul>
+    
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <p class="footer__name">Support</p>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">FAQs</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Privacy Policy</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Help</a>
+                            </li>
+                        </ul>
+    
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <p class="footer__name">Contact Us</p>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">E. Hello@frispes.com</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">A. Jalan Jayakatwang  No.301 <span class="footer__span">Ngasem, Kediri</span></a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">P. (+62) 82334670000</a>
+                            </li>
+                        </ul>
+    
+                    </div>
+                </div> 
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    </body>
+</html>
+
+

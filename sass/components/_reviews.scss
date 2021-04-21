@@ -1,0 +1,123 @@
+.reviews {
+
+    &__section-name {
+        @include respond(tab-port) {
+            max-width: 70rem;
+            margin: 0 auto;
+        }
+    }
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @include respond(tab-port) {
+            max-width: 70rem;
+
+            align-items: flex-start;
+            flex-direction: column;
+            margin: 0 auto;
+        }
+    }
+
+    &__heading {
+        flex: 1;
+        max-width: 40rem;
+        margin-bottom: 3rem;
+    }
+
+    &__arrow {
+        @include respond(tab-port) {
+            align-self: flex-start;
+        }
+    }
+
+    &__main {
+        display: flex;
+        /*margin-left: 20.7rem;*/
+        margin-bottom: 3.2rem;
+
+        @include respond(tab-port) {
+            align-items: center;
+            flex-direction: column;
+            display: none;
+        }
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+       
+
+        color: $color-white;
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+        font-weight: 400;
+        flex: 1;
+        background-color: $color-primary;
+        padding: 4.7rem 4rem;
+        padding-bottom: 3.5rem;
+
+        &:not(:last-child) {
+            margin-right: 3rem;
+        }
+
+
+        @include respond(tab-port) {
+            max-width: 70rem;
+            width: 100%;
+            margin: 0 auto;
+            margin-bottom: 3.2rem;
+            min-height: 260px;
+            
+            &:not(:last-child) {
+                margin-right: 0rem;
+                margin-bottom: 5rem;
+            }
+        }
+
+         @include respond(tab-small) {
+            min-height: 315px;
+         }
+    }
+
+
+    &__text {
+        @include respond(tab-port) {
+            margin-bottom: 4rem;
+            font-size: 2rem;
+        }
+    }
+
+    &__user {
+        display: flex;
+        align-items: center;
+    }
+
+    &__photo {
+        margin-right: 1.6rem;
+    }
+
+    &__carousel {
+        display: none;
+
+        @include respond(tab-port) {
+            display: block;
+        }
+    }
+
+    &__indicators {
+        @include respond(tab-port) {
+            display: none;
+        }
+    }
+}
+
+
+.reviews .reviews__indicators {
+    @include respond(tab-port) {
+        display: none;
+    }
+}
